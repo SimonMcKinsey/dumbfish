@@ -1,9 +1,14 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import { AppState } from '@/store';
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
+const INITIAL_STATE: AppState = {
+
+};
+
+export const store =  new Vuex.Store<AppState>({
   state: {
 
   },
