@@ -1,0 +1,28 @@
+// flex box
+.column-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+  
+  @for $i from 1 through 5 {
+    .flex-#{$i} {
+      flex-grow: $i;
+      flex-shrink: $i;
+    }
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: white;
+  }

@@ -1,0 +1,14 @@
+@import "./partials/normalize";
+// @import "./partials/dimens";
+@import "./partials/colors";
+@import "./partials/fonts";
+@import "./partials/layout";
+@import "./partials/mixins";
+// @import "./partials//screens";
+@import "./partials/transitions";
+
+// components
+// @import "./components/button";
+::-webkit-input-placeholder {
+  background-color: transparent;
+}

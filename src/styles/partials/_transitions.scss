@@ -1,0 +1,90 @@
+/* === FADE === */
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+/* === SLIDE LEFT === */
+
+.slide-left-leave-active,
+.slide-left-enter-active {
+    transition: 200ms;
+}
+
+.slide-left-enter {
+    transform: translate(100%, 0);
+}
+
+.slide-left-leave-to {
+    transform: translate(-100%, 0);
+}
+
+/* === SLIDE RIGHT === */
+
+.slide-right-leave-active,
+.slide-right-enter-active {
+    transition: 200ms;
+}
+
+.slide-right-enter {
+    transform: translate(-100%, 0);
+}
+
+.slide-right-leave-to {
+    transform: translate(100%, 0);
+}
+
+/* === SLIDING FOR ELEMENT THAT HAVE RIGHT:0 === */
+
+.slide-left-right0-leave-active,
+.slide-left-right0-enter-active {
+    transition: 400ms;
+}
+
+.slide-left-right0-enter {
+    transform: translate(100%, 0);
+}
+
+.slide-left-right0-leave-to {
+    transform: translate(100%, 0);
+}
+
+/* === TOAST TRANSITION === */
+
+.tost-leave-active,
+.tost-enter-active {
+    transition: 400ms;
+}
+
+.tost-enter {
+    transform: translate( 0, 50px);
+    opacity: 0;
+}
+
+.tost-leave-to {
+    transform: translate( 0, 50px);
+    opacity: 0;
+}
+
+/* === TOAST TRANSITIONS === */
+
+.toast-leave-active,
+.toast-enter-active {
+    transition: 200ms;
+}
+
+.toast-enter {
+    opacity: 1;
+    transform: translate(0px, 50px);
+}
+
+.toast-leave-to {
+    opacity: 0;
+    transform: translate(0px, 50px);
+}
