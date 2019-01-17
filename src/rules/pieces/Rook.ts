@@ -1,10 +1,10 @@
 import { IPiece, PieceColor, PiecePoints, CellLocation } from './IPiece';
 
-class Pawn implements IPiece {
+class Rook implements IPiece {
     Color: PieceColor;
     Points: PiecePoints;
 
-    constructor(color: PieceColor,points: PiecePoints = PiecePoints.Pawn) {
+    constructor(color: PieceColor,points: PiecePoints = PiecePoints.Rook) {
         this.Color = color;
         this.Points = points;
     }
