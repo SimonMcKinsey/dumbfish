@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import Board from '@/views/Board.vue';
 
 Vue.use(Router);
 
@@ -9,8 +10,9 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'main',
-      component: () =>  import('../App.vue'),
+      name: 'board',
+      component: Board,
     },
   ],
 });
+
