@@ -18,7 +18,7 @@ export enum PieceColor {
 export enum PiecePoints {
     Pawn = 1,
     Knight = 3,
-    Bishop = 3,
+    Bishop = 3.2,
     Rook = 5,
     Queen = 8,
     King = 9999,
